@@ -1,0 +1,202 @@
+\documentclass[10pt,a4paper]{article}
+
+% Set the page margins.
+\usepackage[a4paper,margin=0.75in]{geometry}
+
+% Setup the language.
+\usepackage[english]{babel}
+\usepackage{graphicx}
+% \hyphenation{Some-long-word}
+\newcommand{\CS}{C\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\tiny\bf \#}}
+\newcommand{\Csh}{C\includegraphics{hash-symbol}}
+% Makes resume-specific commands available.
+\usepackage{resume}
+\begin{document}  % begin the content of the document
+\sloppy  % this to relax white spacing in favour of straight margins
+\maintitle{Aaron V Brown}
+\raggedright
+
+
+\par
+Address: 609 Dusty Road, Chesapeake, Virginia 23322
+
+\href{ mailto:aaronb98@vt.edu}{aaronb98\mbox{}@\mbox{}vt.edu}\sbull
+\textsmaller{}(757)621-5116
+\sbull \emph{\href{https://github.com/DaBrownDev}{GitHub}} DaBrownDev 
+\sbull \emph{\href{https://www.linkedin.com/in/aaron-v-brown-ba3684101/}{LinkedIn}} Aaron Brown 
+
+
+\spacedhrule{0.9em}{-0.4em}  % A horizontal line with some vertical spacing before and after
+
+%--------------------------------------------------------------------------------------------
+
+\roottitle{Education:}
+
+\headedsection
+  {\href{https://cyber.vt.edu/}{Virginia Polytechnic Institute and State University}}
+  {\textsc{Blacksburg, Virginia}} {
+  \headedsubsection
+    {Pursuing Bachelors of Science for Computer Engineering}
+    {Expected Graduation: May 2020}
+    {  }
+}
+\smallskip
+\spacedhrule{0.5em}{-0.4em}
+
+%--------------------------------------------------------------------------------------------
+%
+%Add Hours by Week
+%
+%--------------------------------------------------------------------------------------------
+% Astrobotics
+\roottitle{Experience:}
+
+\headedsection
+  {\href{https://www.lockheedmartin.com/en-us/index.html}{Lockheed Martin}}
+  {\small\textsc{Lockheed Martin Summer Intern}} {
+  \headedsubsection
+    {Systems/Software Engineering}
+    {May 2018 -- August 2018}
+    {\begin{itemize}
+        \item Designed full stack application using ASP.NET Core and \CS.
+        \item Researched and developed in Linux based environments using PXE, DHCP, DHCPv6, and DNS protocols.
+        \item Created containerized applications using Docker.
+    \end{itemize}}
+}
+
+\vspace{-0.2em}
+
+%Undergraduate Research
+\headedsection
+{\href{https://www.hume.vt.edu/}{Undergraduate Research at Hume Center}}
+  {\small\textsc{Traffic Cabinet Research}} {
+  \headedsubsection
+    {Security Auditor}
+    {August 2017 -- May 2018}
+    {\begin{itemize}
+        \item Developing inductive coil sensors for simulating traffic systems.
+        \item Simulating traffic infrastructure and probing sensors to see current outputs.
+        \item Preforming security audits on web applications.
+    \end{itemize}}
+}
+
+%--------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------
+\vspace{-0.2em}
+
+%--------------------------------------------------------------------------------------------
+
+% InVenTs High-Powered Rocketry Team
+\headedsection
+  {\href{https://spacegrant.carthage.edu/funding-programs/undergraduate/rocket-competitions/regional/}{InVenTs High-Powered Rocketry Team}}
+  {\small\textsc{NASA's Space Grant Rocket Competition}} {
+
+  \headedsubsection
+    {Avionics Design Lead}
+    {August 2016 -- May 2018}
+    {\begin{itemize}
+        \item Designed active drag system to decrease a rocket's apogee by increasing the amount of drag.
+        \item Wrote software to log data for altitude, velocity, acceleration, and orientation during rocket flight.
+        \item Advises team on Electronic Interface design decision.
+    \end{itemize}}
+}
+
+%--------------------------------------------------------------------------------------------
+
+\vspace{-0.2em}
+%--------------------------------------------------------------------------------------------
+
+% OLVT
+\headedsection
+  {\href{https://olvt.org/}{Orbital Launch Vehicle Team}}
+  {} {
+
+  \headedsubsection
+    {Avionics Design Engineer}
+    {September 2018 -- Present}
+    {\begin{itemize}
+        \item Creating ground to ground communication unit to transmit launch sequence data to and from the rocket.
+        \item Influenced and worked on ground safety and optimization 
+    \end{itemize}}
+}
+
+%--------------------------------------------------------------------------------------------
+
+
+%--------------------------------------------------------------------------------------------
+\smallskip
+\spacedhrule{-0.2em}{-0.4em}
+
+%Activities
+
+\roottitle{Activities:}
+
+%--------------------------------------------------------------------------------------------
+
+%VTLUUG
+\headedsection
+  {\href{https://vtluug.org/}{Linux and Unix Users Group at Virginia Tech}}
+   {
+
+  \headedsubsection
+    {Member}
+    {August 2016 -- Present}
+    {\begin{itemize}
+        \item Educates people on campus about the uses of Linux systems within every day lives.
+        \item Helps individuals install and use Linux to better educate and inform the masses.
+        \item Worked on hardening and securing different distributions of Linux and \href{https://www.hokieprivacy.org/}{campus}.
+    \end{itemize}}
+}
+
+%--------------------------------------------------------------------------------------------
+
+%VTCSEC
+\headedsection
+  {\href{http://vtcsec.org/}{Cybersecurity Club at Virginia Tech}}
+  {\small\textsc{}} {
+
+  \headedsubsection
+    {Member}
+    {August 2016 -- May 2018}
+    {\begin{itemize}
+        \item Informing the masses about potential vulnerabilities within software on and off Virginia Tech's campus.
+        \item Learning about securing programs, and finding attack vectors within computers to secure them.
+        \item Taught about the importance of security on campus through demonstrations.
+    \end{itemize}}
+}
+
+%--------------------------------------------------------------------------------------------
+
+\smallskip
+\spacedhrule{-0.2em}{-0.4em}
+
+
+%--------------------------------------------------------------------------------------------
+\roottitle{Skills:}
+  {
+  \begin{itemize}
+    \item Has experience using \href{https://www.archlinux.org/}{Arch Linux}, 
+    \href{https://www.debian.org/}{Debian Linux}, and \href{http://www.bsd.org/}{BSD}. 
+    \item Proficient in writing \CPP, Shell Script, Python, Java, and C.
+    \item Also knows how to write in MatLab, Mathematica, and LaTeX\nsp.
+    \item Knowledge of web technologies: \acr{HTML+CSS}, \acr{XML}, and Java Script, \href{https://www.djangoproject.com/}{Django}.
+    \item Linux administration skills: Server Administration, virtualization (\acr{VM}ware, Xen).
+  \end{itemize}}
+%--------------------------------------------------------------------------------------------
+\roottitle{Extracurricular Activities:}
+  {
+  \begin{itemize}
+    \item \href{https://www.inventscommunity.org/}{Galipatia} community leadership team and mentor.
+    \item Attending \href{https://mlh.io/}{hackathons} with teams.
+    \item Learning programming languages and hardware description languages.
+  \end{itemize}}
+%--------------------------------------------------------------------------------------------
+\spacedhrule{1 em}{1 em}
+
+\begin{center}
+  \emph{\small Please refer to my \href{https://www.linkedin.com/in/aaron-v-brown-ba3684101/}{LinkedIn profile} and \href{https://github.com/DaBrownDev}{GitHub} for more complete lists of work experiences.}
+\end{center}
+\spacedhrule{1 em}{1 em}
+
+\end{document}
